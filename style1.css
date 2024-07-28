@@ -1,0 +1,44 @@
+@font-face{
+    font-family:Helvetica;
+    src: url("fonts/Helvetica.woff")
+}
+#main{
+    margin: 30px 5px;
+    background-color:rgb(236, 234, 230);
+    font-family: Helvetica;
+}
+h1,p,figure,h2{
+    text-align: center;
+
+}
+img{
+    width: 100%;
+    height: 1100px;
+    object-fit: fill;
+    display: block;
+}
+figure{
+   padding: 1em;
+   background-color: white;
+}
+ul{
+    width: 60%;
+    margin: 2em auto;
+}
+li{
+    margin: 1em;
+}
+p#sam{
+    font-size: 22px;
+}
+@media (max-width: 750px){
+    ul{
+        width: 75%;
+    }
+    img{
+        height: 800px;
+    }
+    fig{
+        padding: .2em;
+    }
+}
